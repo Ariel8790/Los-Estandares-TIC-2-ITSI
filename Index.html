@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estándares Internacionales de TIC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Estándares Internacionales de TIC</h1>
+      <p>Supervisión, aplicación y análisis de los estándares globales que rigen las tecnologías de la información</p>
+    </div>
+  </header>
+
+   <nav class="nav-menu">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <span class="brand-icon">🌐</span>
+        <span class="brand-text">Estándares TIC</span>
+      </div>
+      <button class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li><a href="#wcag" class="nav-link" data-category="Accesibilidad">WCAG</a></li>
+        <li><a href="#ieee" class="nav-link" data-category="Redes">IEEE 802.11</a></li>
+        <li><a href="#cobit" class="nav-link" data-category="Gobernanza">COBIT</a></li>
+        <li><a href="#itil" class="nav-link" data-category="Servicios">ITIL</a></li>
+        <li><a href="#iso27001" class="nav-link" data-category="Seguridad">ISO 27001</a></li>
+        <li><a href="#iso20000" class="nav-link" data-category="Servicios">ISO 20000</a></li>
+        <li><a href="#owasp" class="nav-link" data-category="Seguridad">OWASP Top 10</a></li>
+        <li><a href="#iso25010" class="nav-link" data-category="Calidad">ISO 25010</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container">
+    
+    <section id="wcag" class="standard-section">
+      <div class="standard-header">
+        <h2>WCAG - Directrices de Accesibilidad para el Contenido Web</h2>
+        <span class="category">Accesibilidad Web</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es WCAG?</h3>
+        <p>Las WCAG (Web Content Accessibility Guidelines) son directrices desarrolladas por el W3C para hacer que los contenidos web sean más accesibles para personas con discapacidad. Nacieron como parte de la Iniciativa de Accesibilidad Web (WAI) y son fundamentales para el diseño inclusivo.</p>
+
+        <h3>Principios Fundamentales</h3>
+        <div class="highlight-box">
+          <ul>
+            <li><strong>Perceptible:</strong> El contenido debe presentarse de forma que los usuarios puedan percibirlo.</li>
+            <li><strong>Operable:</strong> Los componentes de la interfaz deben ser utilizables.</li>
+            <li><strong>Comprensible:</strong> La información y operación deben ser fáciles de entender.</li>
+            <li><strong>Robusto:</strong> El contenido debe ser interpretado de manera confiable por tecnologías de asistencia.</li>
+          </ul>
+        </div>
+
+        <h3>¿Cómo se Aplica?</h3>
+        <ul>
+          <li>Agregar descripciones en texto para imágenes</li>
+          <li>Asegurar etiquetas claras en formularios</li>
+          <li>Verificar contraste suficiente entre texto y fondo</li>
+          <li>Ofrecer subtítulos o transcripciones para videos</li>
+          <li>Permitir navegación solo con teclado</li>
+        </ul>
+
+        <h3>Aplicaciones Prácticas</h3>
+        <ul>
+          <li>Diseño y desarrollo accesible de sitios web y apps</li>
+          <li>Auditorías de accesibilidad digital</li>
+          <li>Cumplimiento legal (por ejemplo, ADA, EN 301 549)</li>
+          <li>Integración de lectores de pantalla y navegación por teclado</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ieee" class="standard-section">
+      <div class="standard-header">
+        <h2>IEEE 802.11 - Estándar para redes Wi-Fi</h2>
+        <span class="category">Redes Inalámbricas</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es IEEE 802.11?</h3>
+        <p>El estándar IEEE 802.11 define las bases técnicas del funcionamiento de las redes inalámbricas (Wi-Fi). Permite que dispositivos como computadoras, smartphones o routers se conecten sin cables dentro de una red local.</p>
+
+        <h3>Características Clave</h3>
+        <ul>
+          <li>Operación en bandas de 2.4 GHz y 5 GHz</li>
+          <li>Transmisión de datos sin cables</li>
+          <li>Alta velocidad (hasta varios Gbps en versiones modernas)</li>
+          <li>Protocolos de seguridad como WPA3</li>
+          <li>Soporte para múltiples dispositivos simultáneos</li>
+        </ul>
+
+        <h3>Variantes Comunes</h3>
+        <div class="highlight-box">
+          <ul>
+            <li><strong>802.11a:</strong> Usado en la banda de 5 GHz, ofrece mayor velocidad con menor alcance</li>
+            <li><strong>802.11b:</strong> Opera en 2.4 GHz con mayor alcance pero menor velocidad</li>
+            <li><strong>802.11g:</strong> Combina las ventajas de los anteriores en 2.4 GHz</li>
+            <li><strong>802.11n:</strong> Introduce múltiples antenas (MIMO)</li>
+            <li><strong>802.11ac:</strong> Ofrece velocidades muy altas en 5 GHz</li>
+            <li><strong>802.11ax (Wi-Fi 6):</strong> Alta eficiencia y mejor rendimiento en ambientes densos</li>
+          </ul>
+        </div>
+
+        <h3>Ámbitos de Aplicación</h3>
+        <ul>
+          <li>Redes domésticas y empresariales</li>
+          <li>Instituciones educativas (escuelas, universidades)</li>
+          <li>Puntos de acceso en lugares públicos</li>
+          <li>IoT (Internet de las cosas)</li>
+          <li>Videoconferencias, streaming, juegos online</li>
+          <li>Hospitales para equipos médicos y registros</li>
+          <li>Industria para control de sensores y maquinaria</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cobit" class="standard-section">
+      <div class="standard-header">
+        <h2>COBIT - Control Objectives for Information and Related Technologies</h2>
+        <span class="category">Gestión y Gobernanza de TI</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es COBIT?</h3>
+        <p>COBIT es un marco de buenas prácticas creado por ISACA para ayudar a las organizaciones a gestionar y controlar sus tecnologías de la información. Su objetivo es alinear la TI con los objetivos del negocio, mejorar el rendimiento, reducir riesgos y asegurar el cumplimiento normativo.</p>
+
+        <h3>Historia y Evolución</h3>
+        <p>COBIT fue desarrollado por ISACA en la década de 1990. Desde entonces, ha evolucionado a través de varias versiones, adaptándose a las nuevas tecnologías y cambios en el entorno empresarial. Su enfoque ha ampliado para incluir la gestión de datos, ciberseguridad y la privacidad.</p>
+
+        <h3>Principios Fundamentales</h3>
+        <div class="highlight-box">
+          <ul>
+            <li>Satisfacer las expectativas de los interesados</li>
+            <li>Integración de la gestión de TI en la gobernanza corporativa</li>
+            <li>Responsabilidad de la gestión de riesgos</li>
+            <li>Alineación con objetivos de negocio</li>
+          </ul>
+        </div>
+
+        <h3>Beneficios Principales</h3>
+        <ul>
+          <li><strong>Mejora de la gobernanza:</strong> Establece un marco claro para la gestión de TI</li>
+          <li><strong>Alineación con objetivos:</strong> Asegura que la estrategia de TI apoye las metas del negocio</li>
+          <li><strong>Cumplimiento normativo:</strong> Facilita el cumplimiento de leyes y regulaciones</li>
+          <li>Mejora la responsabilidad y transparencia en la toma de decisiones</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="itil" class="standard-section">
+      <div class="standard-header">
+        <h2>ITIL - Information Technology Infrastructure Library</h2>
+        <span class="category">Gestión de Servicios de TI</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es ITIL?</h3>
+        <p>ITIL es una guía de buenas prácticas para la gestión de servicios de tecnologías de la información (TI). La guía ITIL ha sido elaborada para abarcar toda la infraestructura, desarrollo y operaciones de TI y gestionarla hacia la mejora de la calidad del servicio.</p>
+
+        <h3>Pilares de ITIL</h3>
+        <div class="highlight-box">
+          <ul>
+            <li><strong>Calidad:</strong> Entrega al cliente del producto o servicio óptimos</li>
+            <li><strong>Cliente:</strong> Su satisfacción es el objetivo de la mejora de los servicios</li>
+            <li><strong>Independencia:</strong> Mantener buenas prácticas independientemente de métodos y proveedores</li>
+          </ul>
+        </div>
+
+        <h3>Principales Componentes</h3>
+        <ul>
+          <li><strong>Gestión de Servicios:</strong> Enfoque estructurado desde concepción hasta entrega</li>
+          <li><strong>Ciclo de Vida del Servicio:</strong> Estrategia, diseño, transición, operación y mejora continua</li>
+          <li><strong>Mejores Prácticas:</strong> Procesos, funciones y roles recomendados</li>
+        </ul>
+
+        <h3>Ámbitos de Aplicación</h3>
+        <ul>
+          <li>Empresas de tecnología: Optimización de procesos internos</li>
+          <li>Instituciones gubernamentales: Gestión de infraestructura tecnológica</li>
+          <li>Sector financiero: Procesos seguros para gestión de datos</li>
+          <li>Salud y educación: Administración de sistemas informáticos</li>
+          <li>Industria y manufactura: Integración de TI en procesos productivos</li>
+        </ul>
+
+        <h3>Beneficios de Implementar ITIL</h3>
+        <ul>
+          <li>Mejora en la calidad del servicio</li>
+          <li>Alineación con el negocio</li>
+          <li>Reducción de costos</li>
+          <li>Mayor satisfacción del cliente</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="iso27001" class="standard-section">
+      <div class="standard-header">
+        <h2>ISO/IEC 27001 - Sistema de Gestión de Seguridad de la Información</h2>
+        <span class="category">Seguridad de la Información</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es ISO/IEC 27001?</h3>
+        <p>Es una norma internacional emitida por la Organización Internacional de Normalización (ISO) y la Comisión Electrotécnica Internacional (IEC) que establece los requisitos para un Sistema de Gestión de Seguridad de la Información (SGSI).</p>
+
+        <h3>Objetivos Principales</h3>
+        <div class="highlight-box">
+          <ul>
+            <li><strong>Confidencialidad:</strong> La información solo debe ser accesible a personas autorizadas</li>
+            <li><strong>Integridad:</strong> La información debe ser correcta y completa, sin modificaciones no autorizadas</li>
+            <li><strong>Disponibilidad:</strong> La información y sistemas deben estar disponibles cuando se necesiten</li>
+          </ul>
+        </div>
+
+        <h3>Ámbito de Aplicación</h3>
+        <ul>
+          <li>Aplicable a cualquier organización, sin importar tamaño o sector</li>
+          <li>Sector público, privado y sin fines de lucro</li>
+          <li>Desde pequeñas a grandes empresas</li>
+          <li>Objetivo: Proteger información sensible con prácticas formales</li>
+        </ul>
+
+        <h3>Beneficios y Relevancia</h3>
+        <ul>
+          <li><strong>Protección de datos sensibles:</strong> Salvaguarda información crítica</li>
+          <li><strong>Mejora de la reputación:</strong> Incrementa confianza de clientes y socios</li>
+          <li><strong>Cumplimiento normativo:</strong> Facilita apego a leyes como GDPR</li>
+          <li><strong>Gestión eficiente de riesgos:</strong> Identifica y mitiga amenazas proactivamente</li>
+          <li><strong>Ventaja competitiva:</strong> Diferencia en el mercado</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="owasp" class="standard-section">
+      <div class="standard-header">
+        <h2>OWASP Top 10 - Mejores Prácticas en Seguridad de Aplicaciones</h2>
+        <span class="category">Seguridad de Aplicaciones Web</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es el OWASP Top 10?</h3>
+        <p>El Top 10 de OWASP es una lista de los riesgos de seguridad más críticos para las aplicaciones web, elaborada por el Proyecto Abierto de Seguridad de Aplicaciones Web (OWASP). Es ampliamente reconocido como un estándar para la seguridad de aplicaciones web y se actualiza periódicamente.</p>
+
+        <h3>¿Por qué es Importante?</h3>
+        <p>OWASP desempeña un papel crucial en la concienciación sobre los riesgos de seguridad de las aplicaciones web y proporciona recursos, herramientas, documentación y prácticas recomendadas para abordar los crecientes desafíos de la seguridad de las aplicaciones web.</p>
+
+        <h3>Los 10 Riesgos Principales</h3>
+        <div class="highlight-box">
+          <ul>
+            <li><strong>Controles de acceso rotos:</strong> Aplicación insuficiente de controles de acceso y autorización</li>
+            <li><strong>Fallos criptográficos:</strong> Protección inadecuada de datos sensibles durante tránsito y reposo</li>
+            <li><strong>Ataques de inyección:</strong> Inserción de datos no confiables u hostiles en comandos</li>
+            <li><strong>Diseño inseguro:</strong> Controles de seguridad faltantes o ineficaces</li>
+            <li><strong>Configuraciones incorrectas:</strong> Falta de refuerzo de seguridad en marcos y servidores</li>
+            <li><strong>Componentes vulnerables:</strong> Uso de componentes obsoletos o sin parches</li>
+            <li><strong>Fallos de autenticación:</strong> Debilidades en autenticación y gestión de sesiones</li>
+            <li><strong>Fallos de integridad:</strong> Códigos que no protegen contra violaciones de integridad</li>
+          </ul>
+        </div>
+
+        <h3>¿Cómo Funciona?</h3>
+        <ul>
+          <li>Identificación de riesgos más comunes en aplicaciones web</li>
+          <li>Actualización regular para reflejar cambios en amenazas</li>
+          <li>Concienciación sobre vulnerabilidades comunes</li>
+          <li>Herramienta para mitigación de riesgos</li>
+          <li>Marco para implementación de medidas de seguridad</li>
+        </ul>
+
+        <h3>Instituciones donde se Aplica</h3>
+        <ul>
+          <li><strong>Empresas de desarrollo:</strong> Startups tecnológicas, software factories</li>
+          <li><strong>Entidades gubernamentales:</strong> Ministerios, municipios, universidades públicas</li>
+          <li><strong>Instituciones financieras:</strong> Bancos, aseguradoras, Fintech</li>
+          <li>Cualquier organización que maneje aplicaciones web</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="iso20000" class="standard-section">
+      <div class="standard-header">
+        <h2>ISO 20000 - Gestión de Servicios de TI</h2>
+        <span class="category">Gestión de Servicios</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es ISO 20000?</h3>
+        <p>ISO 20000 es el primer estándar internacional para la gestión de servicios de TI. Proporciona un marco formal para las organizaciones que entregan servicios de TI a clientes internos o externos, estableciendo requisitos para un sistema de gestión de servicios (SMS).</p>
+
+        <h3>Objetivos Principales</h3>
+        <ul>
+          <li>Mejorar la calidad de los servicios de TI</li>
+          <li>Aumentar la eficiencia operacional</li>
+          <li>Reducir costos a largo plazo</li>
+          <li>Mejorar la satisfacción del cliente</li>
+          <li>Facilitar la mejora continua</li>
+        </ul>
+
+        <h3>Beneficios</h3>
+        <div class="highlight-box">
+          <ul>
+            <li>Certificación reconocida internacionalmente</li>
+            <li>Alineación con mejores prácticas como ITIL</li>
+            <li>Mayor credibilidad con clientes y proveedores</li>
+            <li>Procesos más eficientes y controlados</li>
+            <li>Mejor gestión de riesgos</li>
+          </ul>
+        </div>
+
+        <h3>Aplicaciones</h3>
+        <ul>
+          <li>Proveedores de servicios de TI</li>
+          <li>Departamentos internos de TI</li>
+          <li>Organizaciones que buscan certificación</li>
+          <li>Empresas que requieren demostrar calidad en servicios</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="iso25010" class="standard-section">
+      <div class="standard-header">
+        <h2>ISO 25010 - Calidad de Productos de Software</h2>
+        <span class="category">Calidad de Software</span>
+      </div>
+      <div class="standard-content">
+        <h3>¿Qué es ISO 25010?</h3>
+        <p>ISO 25010 es un estándar internacional que define un modelo de calidad para productos de software y sistemas. Forma parte de la serie ISO/IEC 25000 (SQuaRE - Software Product Quality Requirements and Evaluation) y proporciona un marco completo para evaluar la calidad del software.</p>
+
+        <h3>Características de Calidad</h3>
+        <div class="highlight-box">
+          <ul>
+            <li><strong>Funcionalidad:</strong> Capacidad de proporcionar funciones que satisfacen necesidades</li>
+            <li><strong>Confiabilidad:</strong> Capacidad de mantener un nivel de rendimiento especificado</li>
+            <li><strong>Usabilidad:</strong> Facilidad de uso y aprendizaje</li>
+            <li><strong>Eficiencia:</strong> Rendimiento relativo a la cantidad de recursos utilizados</li>
+            <li><strong>Mantenibilidad:</strong> Facilidad para ser modificado</li>
+            <li><strong>Portabilidad:</strong> Facilidad para ser transferido de un ambiente a otro</li>
+            <li><strong>Compatibilidad:</strong> Capacidad de intercambiar información con otros sistemas</li>
+            <li><strong>Seguridad:</strong> Protección de información y datos</li>
+          </ul>
+        </div>
+
+        <h3>Aplicaciones</h3>
+        <ul>
+          <li>Evaluación de calidad de software</li>
+          <li>Especificación de requisitos de calidad</li>
+          <li>Comparación de productos de software</li>
+          <li>Aseguramiento de calidad en desarrollo</li>
+          <li>Auditorías de calidad</li>
+        </ul>
+
+        <h3>Beneficios</h3>
+        <ul>
+          <li>Marco estándar para evaluar calidad</li>
+          <li>Mejora en la toma de decisiones</li>
+          <li>Reducción de riesgos en proyectos</li>
+          <li>Mayor satisfacción del usuario final</li>
+          <li>Facilitación de comunicación entre stakeholders</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 - Proyecto académico sobre Estándares Internacionales en TIC</p>
+      <p>Autores: ARIEL ALEJANDRO ROSALES URQUILLA, DONOVAN ALESSANDRO VILLAFRANCO LOPEZ, ADRIAN OMAR MANCIA URRUTIA</p>
+    </div>
+  </footer>
+</body>
+</html>
